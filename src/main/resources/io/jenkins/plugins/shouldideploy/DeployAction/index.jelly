@@ -1,0 +1,12 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:l="/lib/layout">
+  <l:header></l:header>
+  <l:layout title="Should I deploy today?">
+    <l:main-panel>
+      <h1>
+        Should I deploy today?
+      </h1>
+      <div style="color: var(--warning-color);font-size:3em">${it.reason.message}</div>
+    </l:main-panel>
+  </l:layout>
+</j:jelly>
